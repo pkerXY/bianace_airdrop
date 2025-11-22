@@ -46,6 +46,8 @@ chmod +x uv_install.sh
 
 安装依赖
 ```bash
+uv run python -m venv venv
+source venv/bin/activate
 pip install -r requirements.txt
 ```
 
@@ -85,17 +87,16 @@ uv python binance_airdrop.py
 ```bash
 chmod +x cron.sh
 ```
-
-2. 编辑 crontab：
-
-```bash
-crontab -e
-```
-
-3. 添加定时任务：
+2. 添加定时任务：
 
 ```bash
 ./cron.sh
+```
+
+3. 编辑 crontab：
+
+```bash
+crontab -e
 ```
 
 4. 查看 crontab：
