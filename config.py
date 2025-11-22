@@ -23,7 +23,7 @@ REMINDER_INTERVAL = 1  # 提醒间隔（秒）
 DATA_URL = 'https://alpha123.uk/api/data?fresh=1'
 PRICE_URL = 'https://alpha123.uk/api/price/?batch=today'
 
-# Cookie配置（需要定期更新）
+# Cookie配置
 COOKIE = '_clck=wocq1w%5E2%5Eg0j%5E0%5E2119; cf_clearance=UJwZBV.ojw7Ar2prI72KtQ6EtXA6W5mP176g_VLK4Jw-1761620047-1.2.1.1-qY3y4Ef9nwutk_KwSSJJfxzEmFnBub25xIwB61DmeknKaPAf532qiZTJs3GwjqEyaSb630T_nSYn1Wads4EATGwdE_69peOLBHsfLk0fChu94TsBg9hDihnWH02.gx4sNqmU0SF5jFnzgbNZWDc7mAFoJUwAcLdDraFMb84EgVCFbJFE4_kocFgakTAhTMP1ErWTI2Q0lgmKCYPMzJShZPKzCJiqF3mF.y5HXWtBFQ8; _clsk=1tdhnrt%5E1761638248686%5E3%5E0%5Ee.clarity.ms%2Fcollect'
 
 # 请求Headers

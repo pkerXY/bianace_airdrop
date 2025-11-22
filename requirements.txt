@@ -1,0 +1,10 @@
+# 币安空投监控项目依赖
+
+# HTTP请求库
+requests>=2.25.1
+
+# Server酱通知SDK
+serverchan-sdk
+
+# 时区处理库
+pytz>=2021.1
